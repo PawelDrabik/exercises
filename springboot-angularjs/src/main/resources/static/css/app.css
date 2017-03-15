@@ -1,0 +1,357 @@
+ol.menu-list {
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+.home-section {
+	float: left;
+	width: 25%;
+}
+
+.photo {
+	padding-right: 5px;
+}
+
+.sub-menu {
+	margin-left: 20px;
+}
+
+form.add-account {
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+@import url('http://fonts.googleapis.com/css?family=Amarante');
+
+.firstname.ng-valid {
+	background-color: lightgreen;
+}
+
+.firstname.ng-dirty.ng-invalid-required {
+	background-color: red;
+}
+
+.lastname.ng-valid {
+	background-color: lightgreen;
+}
+
+.lastname.ng-dirty.ng-invalid-required {
+	background-color: red;
+}
+
+.address.ng-valid {
+	background-color: lightgreen;
+}
+
+.address.ng-dirty.ng-invalid-required {
+	background-color: red;
+}
+
+.dob.ng-valid {
+	background-color: lightgreen;
+}
+
+.dob.ng-dirty.ng-invalid-required {
+	background-color: red;
+}
+
+.email.ng-valid {
+	background-color: lightgreen;
+}
+
+.email.ng-dirty.ng-invalid-required {
+	background-color: red;
+}
+
+.bankname.ng-valid {
+	background-color: lightgreen;
+}
+
+.bankname.ng-dirty.ng-invalid-required {
+	background-color: red;
+}
+
+.iban.ng-valid {
+	background-color: lightgreen;
+}
+
+.iban.ng-dirty.ng-invalid-required {
+	background-color: red;
+}
+
+.bic.ng-valid {
+	background-color: lightgreen;
+}
+
+.bic.ng-dirty.ng-invalid-required {
+	background-color: red;
+}
+
+.balance.ng-valid {
+	background-color: lightgreen;
+}
+
+.balance.ng-dirty.ng-invalid-required {
+	background-color: red;
+}
+
+.date.ng-valid {
+	background-color: lightgreen;
+}
+
+.date.ng-dirty.ng-invalid-required {
+	background-color: red;
+}
+
+.description.ng-valid {
+	background-color: lightgreen;
+}
+
+.description.ng-dirty.ng-invalid-required {
+	background-color: red;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+	em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+	b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+	details, embed, figure, figcaption, footer, header, hgroup, menu, nav,
+	output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	outline: none;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+	background: #eee url('http://i.imgur.com/eeQeRmk.png');
+	/* http://subtlepatterns.com/weave/ */
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 62.5%;
+	line-height: 1;
+	color: #585858;
+	padding: 22px 10px;
+	padding-bottom: 55px;
+}
+
+::selection {
+	background: #5f74a0;
+	color: #fff;
+}
+
+::-moz-selection {
+	background: #5f74a0;
+	color: #fff;
+}
+
+::-webkit-selection {
+	background: #5f74a0;
+	color: #fff;
+}
+
+br {
+	display: block;
+	line-height: 1.6em;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+	menu, nav, section {
+	display: block;
+}
+
+input, textarea {
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+strong, b {
+	font-weight: bold;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img {
+	border: 0;
+	max-width: 100%;
+}
+
+h1, h2, h3 {
+	font-family: 'Amarante', Tahoma, sans-serif;
+	font-weight: bold;
+	font-size: 3.6em;
+	line-height: 1.7em;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.form-style-6 {
+	font: 95% Arial, Helvetica, sans-serif;
+	max-width: 400px;
+	margin: 10px auto;
+	padding: 16px;
+	background: #F7F7F7;
+}
+
+.form-style-6 h1 {
+	background: #43D1AF;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+}
+
+.form-style-6 input[type="text"], .form-style-6 input[type="date"],
+	.form-style-6 input[type="datetime"], .form-style-6 input[type="email"],
+	.form-style-6 input[type="number"], .form-style-6 input[type="search"],
+	.form-style-6 input[type="time"], .form-style-6 input[type="url"],
+	.form-style-6 textarea, .form-style-6 select {
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+
+.form-style-6 input[type="text"]:focus, .form-style-6 input[type="date"]:focus,
+	.form-style-6 input[type="datetime"]:focus, .form-style-6 input[type="email"]:focus,
+	.form-style-6 input[type="number"]:focus, .form-style-6 input[type="search"]:focus,
+	.form-style-6 input[type="time"]:focus, .form-style-6 input[type="url"]:focus,
+	.form-style-6 textarea:focus, .form-style-6 select:focus {
+	box-shadow: 0 0 5px #43D1AF;
+	padding: 3%;
+	border: 1px solid #43D1AF;
+}
+
+.form-style-6 input[type="submit"], .form-style-6 input[type="button"] {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #43D1AF;
+	border-bottom: 2px solid #30C29E;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	color: #fff;
+}
+
+.form-style-6 input[type="submit"]:hover, .form-style-6 input[type="button"]:hover
+	{
+	background: #2EBC99;
+}
+
+h2 {
+	font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+	border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+	border: none;
+}
+
+li a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	width: 400px;
+	font-size: 16px;
+	-webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+	-moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+	-o-transition: font-size 0.3s ease, background-color 0.3s ease;
+	-ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+	transition: font-size 0.3s ease, background-color 0.3s ease;
+	-webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+li a:hover {
+	font-size: 20px;
+	background: #f6f6f6;
+}
+
+/* LIST #2 */
+#list2 {
+	width: 320px;
+}
+
+#list2 ol {
+	font-style: italic;
+	font-family: Georgia, Times, serif;
+	font-size: 24px;
+	color: #dc1111;
+}
+
+#list2 ol li {
+	
+}
+
+#list2 ol li p {
+	padding: 8px;
+	font-style: normal;
+	font-family: Arial;
+	font-size: 13px;
+	color: #eee;
+	border-left: 1px solid #999;
+}
+
+#list2 ol li p em {
+	display: block;
+	color: black;
+}
+

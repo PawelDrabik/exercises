@@ -1,0 +1,22 @@
+<div x-ng-controller="createAccountController" class="form-style-6">
+	<h4>{{headingTitle}}</h4>
+	<div x-ng-repeat="account in listAccounts">
+		<div id="list2">
+			<ol>
+				<li><p>
+						<em>Bank Name:{{account.bankname}}</em>
+					</p></li>
+				<li><p>
+						<em>Bank IBAN: {{account.iban}}</em>
+					</p></li>
+				<li><p>
+						<em>Bank BIC: {{account.bic}}</em>
+					</p></li>
+				<li><p>
+						<em>Balance: {{account.balance}}</em>
+					</p></li>
+			</ol>
+			<ol style="list-style: none;" x-ng-if="!$last"><li><p><em>&nbsp;</em></p></li></ol>
+		</div>
+	</div>
+</div>

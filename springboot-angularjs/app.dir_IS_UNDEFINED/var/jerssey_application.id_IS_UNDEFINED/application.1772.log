@@ -1,0 +1,7 @@
+2017-02-20 14:25:06,684 1369  INFO [main] minibank.WebAppInitializer - Starting WebAppInitializer on Win7PC005 with PID 1772 (C:\dev\projects\springboot-angularjs-final\target\classes started by pawel.drabik in C:\dev\projects\springboot-angularjs-final)
+2017-02-20 14:25:12,049 6734  INFO [main] org.apache.catalina.core.StandardService - Starting service Tomcat
+2017-02-20 14:25:12,051 6736  INFO [main] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/7.0.55
+2017-02-20 14:25:12,291 6976  INFO [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-02-20 14:25:13,954 8639  INFO [main] minibank.WebAppInitializer - Started WebAppInitializer in 7.91 seconds (JVM running for 9.092)
+2017-02-20 14:25:24,480 19165  INFO [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-02-20 14:25:28,520 23205  WARN [http-nio-8080-exec-1] org.springframework.web.servlet.PageNotFound - Request method 'POST' not supported

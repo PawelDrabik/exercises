@@ -1,0 +1,6 @@
+2017-02-20 15:03:35,219 1024  INFO [main] minibank.WebAppInitializer - Starting WebAppInitializer on Win7PC005 with PID 7480 (C:\dev\projects\springboot-angularjs-final\target\classes started by pawel.drabik in C:\dev\projects\springboot-angularjs-final)
+2017-02-20 15:03:39,285 5090  INFO [main] org.apache.catalina.core.StandardService - Starting service Tomcat
+2017-02-20 15:03:39,286 5091  INFO [main] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/7.0.55
+2017-02-20 15:03:39,455 5260  INFO [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-02-20 15:03:41,194 6999  INFO [main] minibank.WebAppInitializer - Started WebAppInitializer in 6.444 seconds (JVM running for 7.305)
+2017-02-20 15:03:43,281 9086  INFO [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
